@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff8e8;
+  color: #222222;
+  font-family: Arial, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.tudo {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.topo {
+  background-color: brown;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.principal {
+
+  margin: 20px;
+  padding: 25px;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: Georgia, serif;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: brown;
+  margin-top: 25px;
+}
+
+p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+a {
+  color: brown;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: orange;
+}
+
+.topo a {
+  color: white;
+}
+
+
+.imagem {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+
+ul {
+  display: inline-block;
+  text-align: left;
+  margin: 15px 0;
+}
+
+li {
+  margin: 8px 0;
+}
+
+
+/* --- ESTILOS DA TABELA (ADICIONADO) --- */
+table {
+  width: 100%;
+  border-collapse: collapse; /* Faz com que as bordas se unam em uma linha só */
+  margin: 20px 0;
+  background-color: white;
+}
+
+th, td {
+  border: 1px solid #ddd; /* Cor da borda */
+  padding: 12px; /* Espaçamento interno para o texto respirar */
+  text-align: left;
+}
+
+th {
+  background-color: brown; /* Cor de fundo do cabeçalho */
+  color: white;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #fff0e0; /* Destaca a linha quando passa o mouse */
+}
+/* ------------------------------------ */
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+}
+
+button {
+  background-color: brown;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: block;
+  width: 100%;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+
+.rodape {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  margin-top: auto;
+}
+
+.padrao {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+}
