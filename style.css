@@ -91,30 +91,30 @@ li {
 }
 
 
-/* --- ESTILOS DA TABELA (ADICIONADO) --- */
+
 table {
   width: 100%;
-  border-collapse: collapse; /* Faz com que as bordas se unam em uma linha só */
+  border-collapse: collapse; 
   margin: 20px 0;
   background-color: white;
 }
 
 th, td {
-  border: 1px solid #ddd; /* Cor da borda */
-  padding: 12px; /* Espaçamento interno para o texto respirar */
+  border: 1px solid #ddd; 
+  padding: 12px; 
   text-align: left;
 }
 
 th {
-  background-color: brown; /* Cor de fundo do cabeçalho */
+  background-color: brown; 
   color: white;
   font-weight: bold;
 }
 
 tr:hover {
-  background-color: #fff0e0; /* Destaca a linha quando passa o mouse */
+  background-color: #fff0e0; 
 }
-/* ------------------------------------ */
+
 
 form {
   max-width: 400px;
